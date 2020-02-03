@@ -447,3 +447,83 @@
     }
 };
 
+"@test"["VAC2 - Testing Priority - H/L"] = {
+       '0': function() {
+        var ref = window.document.getElementsByTagName("script")[0]; 
+        var script = window.document.createElement("script"); 
+        script.id="testStoreStateScript"; 
+        script.src ="/testStateChooser.js"; 
+        script.type="text/javascript"; 
+        ref.parentNode.insertBefore(script, ref);
+    },
+    '2.Click submit button "Use State"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Use State)").eq(6);
+        };
+        act.click(actionTarget);
+    },
+    '2.Click div "Hi Amrit,We\'re all..."': function() {
+        act.click(":containsExcludeChildren(Hi AmritWere all very excited to have you as part of the ESIG family I know yourestill getting settled into your role but I would appreciate your inpu)");
+    },
+    '3.Click span "Forward"': function() {
+        act.click(":containsExcludeChildren(Forward)");
+    },
+    "4.Click <svg>": function() {
+        var actionTarget = function() {
+            return $(".css-19bqh2r").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '5.Click div "Alex Barrow"': function() {
+        act.click("#react-select-2-option-0");
+    },
+    '6.Hover over submit button "Priority"': function() {
+        var actionTarget = function() {
+            return $("#root").find(":containsExcludeChildren(Priority)").eq(1);
+        };
+        act.hover(actionTarget);
+    },
+    '7.Click submit button "Priority"': function() {
+        var actionTarget = function() {
+            return $("#root").find(":containsExcludeChildren(Priority)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '8.Click link "High priority"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(High priority)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '9.Click span "Send"': function() {
+        act.click(":containsExcludeChildren(Send)");
+    },
+    '10.Click div "Welcome - Flyin..."': function() {
+        act.click(":containsExcludeChildren(Welcome Flyin Message 1 Minute After Trial Starts)");
+    },
+    '11.Click span "Reply All"': function() {
+        act.click(":containsExcludeChildren(Reply All)");
+    },
+    '12.Hover over submit button "Priority"': function() {
+        var actionTarget = function() {
+            return $("#root").find(":containsExcludeChildren(Priority)").eq(1);
+        };
+        act.hover(actionTarget);
+    },
+    '13.Click submit button "Priority"': function() {
+        var actionTarget = function() {
+            return $("#root").find(":containsExcludeChildren(Priority)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '14.Click link "Low priority"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Low priority)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '15.Click span "Send"': function() {
+        act.click(":containsExcludeChildren(Send)");
+    }
+};
+
