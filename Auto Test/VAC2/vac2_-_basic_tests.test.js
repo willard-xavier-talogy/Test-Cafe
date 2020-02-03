@@ -1,40 +1,7 @@
-"@fixture VAC2";
+"@fixture VAC2 - Basic tests";
 "@page https://assessment.virtualac.adc.uk.com/Home/assessment";
 
-"@test"["One"] = {
-    '0': function() {
-        var ref = window.document.getElementsByTagName("script")[0]; 
-        var script = window.document.createElement("script"); 
-        script.id="testStoreStateScript"; 
-        script.src ="/testStateChooser.js"; 
-        script.type="text/javascript"; 
-        ref.parentNode.insertBefore(script, ref);
-    },
-    '1.Hover over submit button "Use State"': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(6);
-        };
-        act.hover(actionTarget);
-    },
-    '2.Click submit button "Use State"': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(6);
-        };
-        act.click(actionTarget);
-    },
-    '3.Click div "ESIG Non-Executive..."': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(ESIG NonExecutive Director)").eq(0);
-        };
-        act.click(actionTarget);
-    },
-    '4.Click submit button "Reply"': function() {
-        act.click("[data-translationid='Reply'][data-testid='replyButton'].btn.btn-primary.btn-sm");
-    },
-    "5.Click div": function() {
-        act.click(".form-group.row.to-recipients");
-    }
-};
+
 
 "@test"["VAC2 - Send Draft Emails"] = {
        '0': function() {
@@ -383,6 +350,100 @@
     },
     '12.Click span "Send"': function() {
         act.click(":containsExcludeChildren(Send)");
+    }
+};
+
+"@test"["VAC2 - View Sent Emails"] = {
+       '0': function() {
+        var ref = window.document.getElementsByTagName("script")[0]; 
+        var script = window.document.createElement("script"); 
+        script.id="testStoreStateScript"; 
+        script.src ="/testStateChooser.js"; 
+        script.type="text/javascript"; 
+        ref.parentNode.insertBefore(script, ref);
+    },
+    '2.Click submit button "Use State"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Use State)").eq(6);
+        };
+        act.click(actionTarget);
+    },
+    '2.Click link "Sent"': function() {
+        act.click("[title='Sent'].sent");
+    },
+    '3.Click div "RE: Welcome"': function() {
+        act.click(":containsExcludeChildren(RE Welcome)");
+    },
+    '4.Click div "RE: Training cuts..."': function() {
+        act.click(":containsExcludeChildren(RE Training cuts required for Westport Region)");
+    }
+};
+
+"@test"["VAC2 - Sent - Forward and Reply email"] = {
+       '0': function() {
+        var ref = window.document.getElementsByTagName("script")[0]; 
+        var script = window.document.createElement("script"); 
+        script.id="testStoreStateScript"; 
+        script.src ="/testStateChooser.js"; 
+        script.type="text/javascript"; 
+        ref.parentNode.insertBefore(script, ref);
+    },
+    '2.Click submit button "Use State"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Use State)").eq(6);
+        };
+        act.click(actionTarget);
+    },
+    '2.Click span "Sent"': function() {
+        act.click(":containsExcludeChildren(Sent)");
+    },
+    '3.Click div "RE: Welcome"': function() {
+        act.click(":containsExcludeChildren(RE Welcome)");
+    },
+    '4.Click span "Forward"': function() {
+        act.click(":containsExcludeChildren(Forward)");
+    },
+    "5.Click <svg>": function() {
+        var actionTarget = function() {
+            return $(".css-19bqh2r").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '6.Click div "Alex Barrow"': function() {
+        act.click("#react-select-2-option-0");
+    },
+    "7.Click paragraph": function() {
+        var actionTarget = function() {
+            return $(".ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline").find(" > p:nth(0)");
+        };
+        act.click(actionTarget);
+    },
+    '8.Type in paragraph "QA testing"': function() {
+        var actionTarget = function() {
+            return $(".ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline.ck-focused").find(" > p:nth(0)");
+        };
+        act.type(actionTarget, "QA testing");
+    },
+    '9.Click span "Send"': function() {
+        act.click(":containsExcludeChildren(Send)");
+    },
+    '10.Click div "RE: Welcome"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(RE Welcome)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '11.Click span "Reply All"': function() {
+        act.click(":containsExcludeChildren(Reply All)");
+    },
+    '12.Type in paragraph "QA testing all"': function() {
+        var actionTarget = function() {
+            return $(".ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline.ck-focused").find(" > p:nth(0)");
+        };
+        act.type(actionTarget, "QA testing all");
+    },
+    '13.Click button "Send"': function() {
+        act.click("[data-translationid='Send'][title='Send'].btn-invisible.icon.icon-send.btn-send.btn.btn-primary.btn-sm");
     }
 };
 
