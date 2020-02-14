@@ -575,3 +575,36 @@
     }
 };
 
+"@test"["Search Web Users"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "Participants"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkParticipants$/)");
+    },
+    '5.Click link "Web Service Users"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkWebServiceUsers$/)");
+    },
+    "6.Type in input": function() {
+        act.type("#txtSearch", "qa");
+    },
+    '7.Click button "Search"': function() {
+        act.click("#btnSearch");
+    },
+    '8.Click button "Clear"': function() {
+        act.click("#btnClear");
+    },
+    '9.Click link "View Projects"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
+    },
+    '10.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
+    }
+};
+
