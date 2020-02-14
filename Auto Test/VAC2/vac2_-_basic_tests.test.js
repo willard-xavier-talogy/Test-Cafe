@@ -527,3 +527,62 @@
     }
 };
 
+"@test"["VAC2 - Discard Emails"] = {
+       '0': function() {
+        var ref = window.document.getElementsByTagName("script")[0]; 
+        var script = window.document.createElement("script"); 
+        script.id="testStoreStateScript"; 
+        script.src ="/testStateChooser.js"; 
+        script.type="text/javascript"; 
+        ref.parentNode.insertBefore(script, ref);
+    },
+    '2.Click submit button "Use State"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Use State)").eq(6);
+        };
+        act.click(actionTarget);
+    },
+    '2.Click link "Drafts"': function() {
+        act.click("[title='Drafts'].drafts");
+    },
+    '3.Click div "Hello"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Hello)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '4.Click span "Discard"': function() {
+        act.click(":containsExcludeChildren(Discard)");
+    },
+    '5.Click button "Yes, discard"': function() {
+        act.click(":containsExcludeChildren(Yes discard)");
+    },
+    '6.Click div "(No Subject)"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(No Subject)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '7.Click span "Discard"': function() {
+        act.click(":containsExcludeChildren(Discard)");
+    },
+    '8.Click button "Discard"': function() {
+        act.click("[data-testid='button'][title='Discard'].btn-invisible.icon.icon-delete-email.btn-delete-email.btn.btn-danger.btn-sm");
+    },
+    '9.Click button "Yes, discard"': function() {
+        act.click(":containsExcludeChildren(Yes discard)");
+    },
+    '10.Click div "(No Subject)"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(No Subject)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '11.Click span "Discard"': function() {
+        act.click(":containsExcludeChildren(Discard)");
+    },
+    '12.Click button "Yes, discard"': function() {
+        act.click(":containsExcludeChildren(Yes discard)");
+    }
+};
+
