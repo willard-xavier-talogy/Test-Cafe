@@ -257,3 +257,182 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
 };
+
+"@test"["View client account - QA"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "Administrators"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkStaff$/)");
+    },
+    '5.Click link "View Client Accounts"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewClientAccountDetails$/)");
+    },
+    "6.Wait 1000 milliseconds": function() {
+        act.wait(1e3);
+    },
+    '7.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtClientName$/)", "qa");
+    },
+    '8.Click submit button "Apply Filter"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
+    },
+    "9.Wait 1000 milliseconds": function() {
+        act.wait(1e3);
+    },
+    '10.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
+    }
+};
+
+"@test"["View Participants - QA - send login too"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "Participants"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkParticipants$/)");
+    },
+    '5.Click link "View Participants"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewParticipants$/)");
+    },
+    '6.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtForename$/)", "qa");
+    },
+    '7.Click submit button "Apply Filter"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
+    },
+    '8.Click link "..."': function() {
+        var actionTarget = function() {
+            return $(".gridRow").find(" > td:nth(6) > a:nth(0)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '9.Click submit button "Resend Login Details"': function() {
+        handleConfirm(true);
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnResendLoginDetails$/)");
+    },
+    '10.Click image "Details"': function() {
+        var actionTarget = function() {
+            return $(".lnkNoHref[alt='Details']").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '11.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
+    }
+};
+
+"@test"["View Project - Admin Dilemmas"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "Project"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
+    },
+    '5.Click link "View Projects"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
+    },
+    '6.Click select "Select an..."': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlAssessmentType$/)");
+    },
+    '7.Click option "Admin Dilemmas"': function() {
+        act.click(":containsExcludeChildren(Admin Dilemmas)");
+    },
+    "8.Wait 1000 milliseconds": function() {
+        act.wait(1e3);
+    },
+    '9.Click image "Details"': function() {
+        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
+    },
+    '10.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
+    }
+};
+
+"@test"["View Raters - QA"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "Participants"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkParticipants$/)");
+    },
+    '5.Click link "View Raters"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewRaters$/)");
+    },
+    '6.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtForename$/)", "qa");
+    },
+    '7.Click submit button "Apply Filter"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
+    },
+    '8.Click link "..."': function() {
+        var actionTarget = function() {
+            return $(".gridRow").find(" > td:nth(4) > a:nth(0)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '9.Click image "Details"': function() {
+        act.click(".lnkNoHref[alt='Details']");
+    },
+    '10.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
+    }
+};
+
+"@test"["Manage Administrators - QA"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "Administrators"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkStaff$/)");
+    },
+    '5.Click link "Manage..."': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkCreateStaff$/)");
+    },
+    '6.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtForename$/)", "qa");
+    },
+    '7.Click submit button "Apply Filter"': function() {
+        act.click("#btnFilter");
+    },
+    '8.Click link "..."': function() {
+        var actionTarget = function() {
+            return $(".gridRowAlt").find(" > td:nth(8) > a:nth(0)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '9.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
+    }
+};
+
