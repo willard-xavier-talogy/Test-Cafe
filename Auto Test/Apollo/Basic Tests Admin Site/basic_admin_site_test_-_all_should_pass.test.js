@@ -481,3 +481,37 @@
     }
 };
 
+"@test"["Edited Account and Cancel "] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "Account"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkClients$/)");
+    },
+    '5.Click link "Account Details"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewAccountDetails$/)");
+    },
+    "6.Wait 1000 milliseconds": function() {
+        act.wait(1e3);
+    },
+    '7.Click submit button "Edit Account"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnEditAccount$/)");
+    },
+    "8.Wait 1000 milliseconds": function() {
+        act.wait(1e3);
+    },
+    '9.Click submit button "Cancel"': function() {
+        handleConfirm(true);
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnCancel$/)");
+    },
+    '10.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
+    }
+};
+
