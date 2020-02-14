@@ -497,13 +497,13 @@
     '5.Click link "Account Details"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_lnkViewAccountDetails$/)");
     },
-    "6.Wait 1000 milliseconds": function() {
+    "6.Wait 13000 milliseconds": function() {
         act.wait(1e3);
     },
     '7.Click submit button "Edit Account"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnEditAccount$/)");
     },
-    "8.Wait 1000 milliseconds": function() {
+    "8.Wait 2000 milliseconds": function() {
         act.wait(1e3);
     },
     '9.Click submit button "Cancel"': function() {
