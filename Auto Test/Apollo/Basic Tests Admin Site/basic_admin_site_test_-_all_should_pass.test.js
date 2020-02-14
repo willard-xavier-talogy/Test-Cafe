@@ -515,3 +515,63 @@
     }
 };
 
+"@test"["Change Password - Cancel"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "My Settings"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkMysettings$/)");
+    },
+    '5.Click link "Change Password"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkChangepassword$/)");
+    },
+    '6.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
+    }
+};
+
+"@test"["My Settings - Change Time zone - Cancel"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "My Settings"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkMysettings$/)");
+    },
+    '5.Click link "Change Time Zone"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkChangeTimeZone$/)");
+    },
+    '6.Click select "ctl00$ContentPlaceH..."': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddTimeZone$/)");
+    },
+    '7.Click option "(UTC-04:00) Cuiaba"': function() {
+        act.click(":containsExcludeChildren(UTC0400 Cuiaba)");
+    },
+    '8.Click submit button "Cancel"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnCancel$/)");
+    },
+    '9.Hover over link "My Settings"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkMysettings$/)");
+    },
+    '10.Click link "Change Time Zone"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkChangeTimeZone$/)");
+    },
+    '11.Click submit button "Cancel"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnCancel$/)");
+    },
+    '12.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
+    }
+};
+
