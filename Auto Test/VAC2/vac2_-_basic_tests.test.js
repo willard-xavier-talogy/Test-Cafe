@@ -102,8 +102,8 @@
     '21.Click span "Send"': function() {
         act.click(":containsExcludeChildren(Send)");
     },
-    '22.Click div "Alex Barrow"': function() {
-        act.click(":containsExcludeChildren(Alex Barrow)");
+    '22.Click div "(No Subject)"': function() {
+        act.click(":containsExcludeChildren(No Subject)");
     },
     '23.Click button "Send"': function() {
         act.click("[data-translationid='Send'][title='Send'].btn-invisible.icon.icon-send.btn-send.btn.btn-primary.btn-sm");
@@ -215,12 +215,12 @@
     '4.Click span "ESIG\'s Values and..."': function() {
         act.click(":containsExcludeChildren(ESIGs Values and Objectives)");
     },
-    '5.Click span "ESIG Training..."': function() {
-        act.click(":containsExcludeChildren(ESIG Training Courses)");
+    '5.Click span "Training cuts required for Westport Region"': function() {
+        act.click(":containsExcludeChildren(Training cuts required for Westport Region)");
     },
-    '6.Click div "ESIG Non-Executive..."': function() {
+    '6.Click div "Training cuts required for Westport Region"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(ESIG NonExecutive Director)").eq(1);
+            return $(":containsExcludeChildren(Training cuts required for Westport Region)").eq(1);
         };
         act.click(actionTarget);
     },
