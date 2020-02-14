@@ -436,3 +436,48 @@
     }
 };
 
+"@test"["Group Project Data Download"] = {
+    '1.Type in input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+    },
+    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
+    },
+    '3.Click submit button "Login"': function() {
+        act.click("#btnLogin");
+    },
+    '4.Hover over link "Project"': function() {
+        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
+    },
+    '5.Click link "Project Data..."': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_lnkMultipleProjectDownload$/)");
+    },
+    '6.Click submit button "Add"': function() {
+        var actionTarget = function() {
+            return $(".gridRow").find(" > td:nth(7) > input:nth(0)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '7.Click submit button "Add"': function() {
+        var actionTarget = function() {
+            return $(".gridRowAlt").find(" > td:nth(7) > input:nth(0)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '8.Click submit button "Add"': function() {
+        var actionTarget = function() {
+            return $(".gridRow").find(" > td:nth(7) > input:nth(0)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    "9.Wait 1000 milliseconds": function() {
+        act.wait(1e3);
+    },
+    '10.Click submit button "Download Data"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnDownloadAsFile$/)");
+    },
+    '11.Click link "Logout"': function() {
+        act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
+    }
+};
+
