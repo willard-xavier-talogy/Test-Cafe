@@ -566,10 +566,7 @@
     '7.Click span "Discard"': function() {
         act.click(":containsExcludeChildren(Discard)");
     },
-    '8.Click button "Discard"': function() {
-        act.click("[data-testid='button'][title='Discard'].btn-invisible.icon.icon-delete-email.btn-delete-email.btn.btn-danger.btn-sm");
-    },
-    '9.Click button "Yes, discard"': function() {
+       '9.Click button "Yes, discard"': function() {
         act.click(":containsExcludeChildren(Yes discard)");
     },
     '10.Click div "(No Subject)"': function() {
