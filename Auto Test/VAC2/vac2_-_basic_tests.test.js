@@ -683,7 +683,7 @@
     }
 };
 
-"@test"["VAC2 - Document - Tool bar"] = {
+"@test"["VAC2 - Document - Tool bar test"] = {
        '0': function() {
         var ref = window.document.getElementsByTagName("script")[0]; 
         var script = window.document.createElement("script"); 
