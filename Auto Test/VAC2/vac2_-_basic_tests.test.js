@@ -583,61 +583,7 @@
     }
 };
 
-"@test"["VAC2 - Preview Document and Save - Open"] = {
-       '0': function() {
-        var ref = window.document.getElementsByTagName("script")[0]; 
-        var script = window.document.createElement("script"); 
-        script.id="testStoreStateScript"; 
-        script.src ="/testStateChooser.js"; 
-        script.type="text/javascript"; 
-        ref.parentNode.insertBefore(script, ref);
-    },
-    '2.Click submit button "Use State"': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(6);
-        };
-        act.click(actionTarget);
-    },
-    '2.Click div "Hi Amrit,Thanks..."': function() {
-        act.click(":containsExcludeChildren(Hi AmritThanks again for taking this difficult decision on board Like Ive saidpreviously this is not a great position for us to be in however we must )");
-    },
-    '3.Click span "Diversity Uptake..."': function() {
-        act.click(":containsExcludeChildren(Diversity Uptake of Delegates)");
-    },
-    '4.Click link "Preview"': function() {
-        act.click(":containsExcludeChildren(Preview)");
-    },
-    '5.Click button "Close"': function() {
-        var actionTarget = function() {
-            return $("#modal\\:ck6rx8kni000d3b6rlk4gwmt8").find(":containsExcludeChildren(Close)");
-        };
-        act.click(actionTarget);
-    },
-    "6.Click submit button": function() {
-        act.click("[data-toggle='dropdown'].btn-invisible.dropdown-toggle.btn-attachment.btn.btn-primary.btn-sm");
-    },
-    '7.Click link "Preview"': function() {
-        act.click(":containsExcludeChildren(Preview)");
-    },
-    '8.Click button "Save to Documents..."': function() {
-        var actionTarget = function() {
-            return $("#modal\\:ck6rx8tc5000h3b6rrchfz6oa").find(":containsExcludeChildren(Save to Documents)");
-        };
-        act.click(actionTarget);
-    },
-    '9.Click span "Documents"': function() {
-        var actionTarget = function() {
-            return $("#root").find(":containsExcludeChildren(Documents)").eq(0);
-        };
-        act.click(actionTarget);
-    },
-    '10.Click div "Diversity Uptake..."': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Diversity Uptake of Delegates)").eq(1);
-        };
-        act.click(actionTarget);
-    }
-};
+
 
 "@test"["VAC2 - Edited email - Preview Doc - Remove"] = {
        '0': function() {
@@ -817,6 +763,65 @@
     },
     "34.Click <svg>": function() {
         act.click("body > div:nth(0) > div:nth(0) > div:nth(0) > div:nth(1) > div:nth(2) > div:nth(0) > div:nth(1) > div:nth(1) > div:nth(0) > div:nth(0) > div:nth(0) > div:nth(0) > button:nth(7) > svg:nth(0)");
+    }
+};
+
+"@test"["VAC2 - Preview Document and Save - Open"] = {
+       '0': function() {
+        var ref = window.document.getElementsByTagName("script")[0]; 
+        var script = window.document.createElement("script"); 
+        script.id="testStoreStateScript"; 
+        script.src ="/testStateChooser.js"; 
+        script.type="text/javascript"; 
+        ref.parentNode.insertBefore(script, ref);
+    },
+    '2.Click submit button "Use State"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Use State)").eq(6);
+        };
+        act.click(actionTarget);
+    },
+    "2.Click div": function() {
+        var actionTarget = function() {
+            return $(".email-snippet-right").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '3.Hover over span "Diversity Uptake..."': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Diversity Uptake of Delegates)").eq(1);
+        };
+        act.hover(actionTarget);
+    },
+    '4.Click span "Diversity Uptake..."': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Diversity Uptake of Delegates)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '5.Click link "Preview"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Preview)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '6.Click button "Close"': function() {
+        var actionTarget = function() {
+            return $("#modal-preview-pdf-attachment").find(":containsExcludeChildren(Close)");
+        };
+        act.click(actionTarget);
+    },
+    '7.Click span "Diversity Uptake..."': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Diversity Uptake of Delegates)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '8.Click link "Save to Documents..."': function() {
+        act.click(":containsExcludeChildren(Save to Documents)");
+    },
+    '9.Click button "Save and Open"': function() {
+        act.click(":containsExcludeChildren(Save and Open)");
     }
 };
 
