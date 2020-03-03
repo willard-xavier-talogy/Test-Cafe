@@ -14,7 +14,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -144,7 +144,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -179,7 +179,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -202,7 +202,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -240,7 +240,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -299,7 +299,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -364,7 +364,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -390,7 +390,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -458,7 +458,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -538,7 +538,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -600,7 +600,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
@@ -659,7 +659,7 @@
     },
     '2.Click submit button "Use State"': function() {
         var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(7);
+            return $(":containsExcludeChildren(Use State)").eq(0);
         };
         act.click(actionTarget);
     },
