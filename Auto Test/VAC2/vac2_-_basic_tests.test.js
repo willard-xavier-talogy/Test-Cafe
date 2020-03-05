@@ -731,3 +731,66 @@
         act.click(actionTarget);
     }
 };
+
+"@test"["open and save"] = {
+       '0': function() {
+        var ref = window.document.getElementsByTagName("script")[0]; 
+        var script = window.document.createElement("script"); 
+        script.id="testStoreStateScript"; 
+        script.src ="/testStateChooser.js"; 
+        script.type="text/javascript"; 
+        ref.parentNode.insertBefore(script, ref);
+    },
+    '2.Click submit button "Use State"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Use State)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '2.Click div "Welcome"': function() {
+        act.click(":containsExcludeChildren(Welcome)");
+    },
+    '3.Hover over span "Organisational..."': function() {
+        act.hover(":containsExcludeChildren(Organisational Information)");
+    },
+    '4.Click span "Organisational..."': function() {
+        act.click(":containsExcludeChildren(Organisational Information)");
+    },
+    '5.Click link "Preview"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Preview)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '6.Hover over button "Save to Documents..."': function() {
+        var actionTarget = function() {
+            return $("#modal\\:ck7enmxmf000d3b6rzxijsfcu").find(":containsExcludeChildren(Save to Documents)");
+        };
+        act.hover(actionTarget);
+    },
+    '7.Click button "Save to Documents..."': function() {
+        var actionTarget = function() {
+            return $("#modal\\:ck7enmxmf000d3b6rzxijsfcu").find(":containsExcludeChildren(Save to Documents)");
+        };
+        act.click(actionTarget);
+    },
+    '8.Hover over span "Documents"': function() {
+        var actionTarget = function() {
+            return $("#root").find(":containsExcludeChildren(Documents)").eq(0);
+        };
+        act.hover(actionTarget);
+    },
+    '9.Click span "Documents"': function() {
+        var actionTarget = function() {
+            return $("#root").find(":containsExcludeChildren(Documents)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '10.Click div "Organisational..."': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Organisational Information)").eq(1);
+        };
+        act.click(actionTarget);
+    }
+};
+
