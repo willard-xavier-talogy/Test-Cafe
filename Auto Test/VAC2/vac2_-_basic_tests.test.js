@@ -589,64 +589,7 @@
 
 
 
-"@test"["VAC2 - Preview Document and Save - Open"] = {
-       '0': function() {
-        var ref = window.document.getElementsByTagName("script")[0]; 
-        var script = window.document.createElement("script"); 
-        script.id="testStoreStateScript"; 
-        script.src ="/testStateChooser.js"; 
-        script.type="text/javascript"; 
-        ref.parentNode.insertBefore(script, ref);
-    },
-    '2.Click submit button "Use State"': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Use State)").eq(0);
-        };
-        act.click(actionTarget);
-    },
-    "2.Click div": function() {
-        var actionTarget = function() {
-            return $(".email-snippet-right").eq(1);
-        };
-        act.click(actionTarget);
-    },
-    '3.Hover over span "Diversity Uptake..."': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Diversity Uptake of Delegates)").eq(1);
-        };
-        act.hover(actionTarget);
-    },
-    '4.Click span "Diversity Uptake..."': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Diversity Uptake of Delegates)").eq(1);
-        };
-        act.click(actionTarget);
-    },
-    '5.Click link "Preview"': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Preview)").eq(1);
-        };
-        act.click(actionTarget);
-    },
-    '6.Click button "Close"': function() {
-        var actionTarget = function() {
-            return $("#modal-preview-pdf-attachment").find(":containsExcludeChildren(Close)");
-        };
-        act.click(actionTarget);
-    },
-    '7.Click span "Diversity Uptake..."': function() {
-        var actionTarget = function() {
-            return $(":containsExcludeChildren(Diversity Uptake of Delegates)").eq(0);
-        };
-        act.click(actionTarget);
-    },
-    '8.Click link "Save to Documents..."': function() {
-        act.click(":containsExcludeChildren(Save to Documents)");
-    },
-    '9.Click button "Save and Open"': function() {
-        act.click(":containsExcludeChildren(Save and Open)");
-    }
-};
+
 
 "@test"["VAC2 - Edited email - Preview Doc - Remove"] = {
       '0': function() {
@@ -701,3 +644,90 @@
     }
 };
 
+"@test"["VAC2 - Instructions and finish"] = {
+       '0': function() {
+        var ref = window.document.getElementsByTagName("script")[0]; 
+        var script = window.document.createElement("script"); 
+        script.id="testStoreStateScript"; 
+        script.src ="/testStateChooser.js"; 
+        script.type="text/javascript"; 
+        ref.parentNode.insertBefore(script, ref);
+    },
+    '2.Click submit button "Use State"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Use State)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '2.Click span "Instructions"': function() {
+        act.click(":containsExcludeChildren(Instructions)");
+    },
+    '3.Click button "Close"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Close)").eq(1);
+        };
+        act.click(actionTarget);
+    },
+    '4.Click span "Finish Exercise"': function() {
+        act.click(":containsExcludeChildren(Finish Exercise)");
+    },
+    "5.Type in input": function() {
+        act.type("#finishCode", "12345");
+    },
+    '6.Click button "Yes, Finish Exercise"': function() {
+        act.click(":containsExcludeChildren(Yes Finish Exercise)");
+    }
+};
+
+"@test"["VAC2 - Preview Document and Save - Open"] = {
+       '0': function() {
+        var ref = window.document.getElementsByTagName("script")[0]; 
+        var script = window.document.createElement("script"); 
+        script.id="testStoreStateScript"; 
+        script.src ="/testStateChooser.js"; 
+        script.type="text/javascript"; 
+        ref.parentNode.insertBefore(script, ref);
+    },
+    '2.Click submit button "Use State"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Use State)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '2.Click div "Tom Parker"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Tom Parker)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '3.Hover over span "Organisational..."': function() {
+        act.hover(":containsExcludeChildren(Organisational Information)");
+    },
+    '4.Click span "Organisational..."': function() {
+        act.click(":containsExcludeChildren(Organisational Information)");
+    },
+    '5.Click link "Preview"': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Preview)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '6.Click button "Save to Documents..."': function() {
+        var actionTarget = function() {
+            return $("#modal\\:ck7emcwtq000f3b6rccwfcbt9").find(":containsExcludeChildren(Save to Documents)");
+        };
+        act.click(actionTarget);
+    },
+    '7.Click span "Documents"': function() {
+        var actionTarget = function() {
+            return $("#root").find(":containsExcludeChildren(Documents)").eq(0);
+        };
+        act.click(actionTarget);
+    },
+    '8.Click div "Organisational..."': function() {
+        var actionTarget = function() {
+            return $(":containsExcludeChildren(Organisational Information)").eq(1);
+        };
+        act.click(actionTarget);
+    }
+};
