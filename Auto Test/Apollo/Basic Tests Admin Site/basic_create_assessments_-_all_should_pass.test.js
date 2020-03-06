@@ -3396,3 +3396,4 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
 };
+
