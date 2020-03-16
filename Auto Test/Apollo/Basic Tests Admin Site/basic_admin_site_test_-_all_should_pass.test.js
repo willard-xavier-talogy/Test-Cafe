@@ -600,9 +600,6 @@
     '8.Click button "Clear"': function() {
         act.click("#btnClear");
     },
-    '9.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
     '10.Click link "Logout"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
     }
