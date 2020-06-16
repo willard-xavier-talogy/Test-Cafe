@@ -5728,6 +5728,9 @@
     },
     '16.Click submit button "Next"': function() {
         act.click("#btnNext");
+     },
+    "18.Wait 1000 milliseconds": function() {
+        act.wait(1e3);
     },
     '17.Click submit button "Start Test"': function() {
         act.click("#btnStartTest");
