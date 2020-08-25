@@ -1,4 +1,4 @@
--"@fixture Basic Running Assessments - All Should Pass";
+"@fixture Basic Running Assessments - All Should Pass";
 "@page https://uat.apolloadministration.adc.uk.com";
 
 "@test"["Ambulance Service SJT Audio Version New  - Running "] = {
