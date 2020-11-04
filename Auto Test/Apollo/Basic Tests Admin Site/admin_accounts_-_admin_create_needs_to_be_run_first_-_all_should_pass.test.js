@@ -319,7 +319,7 @@
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qareg17");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Green72door");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
     },
     '3.Click submit button "Login"': function() {
         act.click("#btnLogin");
