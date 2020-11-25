@@ -3,7 +3,7 @@
 "@page https://uat.apolloadministration.adc.uk.com/";
 "@test"["Sending 360 Propel a to-do Emails"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QADemo");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -118,7 +118,7 @@
 
 "@test"["360 Muiti Report Download"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
