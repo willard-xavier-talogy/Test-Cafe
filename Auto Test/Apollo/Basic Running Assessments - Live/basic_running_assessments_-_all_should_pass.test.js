@@ -35,8 +35,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -448,8 +448,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -860,8 +860,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -1248,8 +1248,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -1655,8 +1655,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -2064,8 +2064,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -2481,8 +2481,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -3257,8 +3257,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -3678,8 +3678,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -4447,8 +4447,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -4841,8 +4841,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -5148,8 +5148,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -5701,8 +5701,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -5974,8 +5974,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -6370,8 +6370,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -6827,8 +6827,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -7225,8 +7225,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -7534,8 +7534,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -8295,8 +8295,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -8692,8 +8692,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -9260,8 +9260,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -9834,8 +9834,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -10576,8 +10576,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -10973,8 +10973,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -11380,8 +11380,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -11771,8 +11771,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -12355,8 +12355,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -12749,8 +12749,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -13497,8 +13497,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -14038,8 +14038,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -14372,8 +14372,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -14676,8 +14676,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -14962,8 +14962,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
@@ -15320,8 +15320,8 @@
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
     },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
+    '11.Click link "https://apollo...."': function() {
+        act.click(":containsExcludeChildren(httpsapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
         act.type("#txtUsername", "QAwx1Example1bwx7");
