@@ -6,7 +6,7 @@
         act.click(":attrRegExp(id:/^ctl\\d+_MainContent_ApolloLabel10$/)");
     },
     '2.Type in input "Username*"': function() {
-        act.type("#txtUsernameForReset", "QAwx4Example4bwx");
+        act.type("#txtUsernameForReset", "QAwx4Example4bwx13");
     },
     '3.Click input "Email Address*"': function() {
         act.click("#txtEmailAddress");

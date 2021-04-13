@@ -1,4 +1,4 @@
-              "@require ../.. /modules/CurrentDateMixin.js";
+"@require ../../modules/CurrentDateMixin.js";
 "@fixture Basic_Create_Assessments - All should Pass";
 "@page https://uat.apolloadministration.adc.uk.com";
 
@@ -3396,4 +3396,3 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
 };
-
