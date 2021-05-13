@@ -4,7 +4,7 @@
 
 "@test"["Basic Admin Dilemmas"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -98,7 +98,7 @@
 };
 "@test"["Basic Ambulance Service Eligibilty Screen"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -161,7 +161,7 @@
 
 "@test"["Basic Ambulance Service SJT - Audio - New"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -246,7 +246,7 @@
 };
 "@test"["Ambulance Service SJT Audio Version New"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -337,7 +337,7 @@
 };
 "@test"["Call Centre Dilemmas"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -428,7 +428,7 @@
 };  
 "@test"["Customer Service Dilemmas"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -519,7 +519,7 @@
 };   
 "@test"["Driving Examiner Situational Judgment Test"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -615,7 +615,7 @@
 
 "@test"["Fire Rescue Service SJT"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -631,6 +631,9 @@
     },
     '6.Type in input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtProjectName$/)", "Fire Rescue Service SJT Test");
+            },
+    '7.Type in text area "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtProjectDesc$/)", "Created using auto software");
     },
     '7.Click select "ctl00$ContentPlaceH..."': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlAssessment$/)");
@@ -704,7 +707,7 @@
 
 "@test"["Fire Rescue Service BSQ"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -793,7 +796,7 @@
 
 "@test"["Graduate Dilemmas A"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -877,7 +880,7 @@
 
 "@test"["G-Research BSQ"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -959,7 +962,7 @@
 
 "@test"["Health Education NW"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1045,7 +1048,7 @@
 
 "@test"["ISS Healthcare SJT"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1131,7 +1134,7 @@
 
 "@test"["Lived 360"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1217,7 +1220,7 @@
 
 "@test"["Management Dilemmas"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1305,7 +1308,7 @@
 
 "@test"["Met Police Service SJT"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1394,7 +1397,7 @@
 
 "@test"["PMI Match"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1499,7 +1502,7 @@
 
 "@test"["Police Call Handler SJT Test - Audio Version V1"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1590,7 +1593,7 @@
 
 "@test"["Police Call Handler SJT Test - Audio Version V2"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1683,7 +1686,7 @@
 
 "@test"["Police Constable BSQ V1"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1776,7 +1779,7 @@
 
 "@test"["Police Constable BSQ V2"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1858,7 +1861,7 @@
 
 "@test"["Police Constable BSQ V3"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -1936,7 +1939,7 @@
 
 "@test"["Police Constable SJT - Non Video"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2032,7 +2035,7 @@
 
 "@test"["Police Constable SJT - Video Version"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2125,7 +2128,7 @@
 
 "@test"["Police Sergeant SJT"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2220,7 +2223,7 @@
 
 "@test"["Smart Aptitude - Abstract Reasoning Text"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2309,7 +2312,7 @@
 
 "@test"["Smart Aptitude - Numerical Reasoning Test"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2407,7 +2410,7 @@
 
 "@test"["Smart Aptitude - Verbal Reasoning Test"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2497,7 +2500,7 @@
 
 "@test"["Special Constable BSQ"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2581,7 +2584,7 @@
 
 "@test"["Special Constable SJT"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2673,7 +2676,7 @@
 
 "@test"["The Employability Questionnaire"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2760,7 +2763,7 @@
 
 "@test"["The Engagement Questionnaire"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2832,7 +2835,7 @@
 
 "@test"["The Hyde Group BSQ"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -2916,7 +2919,7 @@
 
 "@test"["The London Factor Assessment"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -3001,7 +3004,7 @@
 
 "@test"["The Resilience Questionnaire"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -3087,7 +3090,7 @@
 
 "@test"["Wrong date test"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -3149,7 +3152,7 @@
 
 "@test"["The Think Forward Questionnaire"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -3235,7 +3238,7 @@
 
 "@test"["The Think Forward Work Readiness Tracker"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -3319,7 +3322,7 @@
 
 "@test"["TJX Motiv8 Questionnaire"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
