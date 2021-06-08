@@ -4,7 +4,7 @@
 
 "@test"["360 Propel a"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -104,7 +104,7 @@
 
 "@test"["360 LIVED English"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -219,7 +219,7 @@
 
 "@test"["360 LIVED Turkish"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -307,7 +307,7 @@
 
 "@test"["360 LIVED Romanian"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -395,7 +395,7 @@
 
 "@test"["360 LIVED Spanish"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     "2.Press key TAB": function() {
         act.press("tab");
@@ -519,7 +519,7 @@
 
 "@test"["360 Propel b"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -588,4 +588,4 @@
     '23.Click link "Logout"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
-};
+}; 
