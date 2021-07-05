@@ -3,7 +3,7 @@
 "@page https://uat.apolloadministration.adc.uk.com/";
 "@test"["Sending 360 Propel a to-do Emails"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QADemo");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -118,7 +118,7 @@
 
 "@test"["360 Muiti Report Download"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
     },
     '2.Type in password input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
@@ -140,9 +140,25 @@
     },
     '8.Click image "Details"': function() {
         act.click(".lnkNoHref[alt='Details']");
-   
     },
-  
+    '9.Click check box "on"': function() {
+        var actionTarget = function() {
+            return $("#1325079").find(":attrRegExp(name:/^ctl\\d+\\$ctl\\d+\\$ContentPlaceHolder1\\$tabStripProject\\$tabParticipants\\$cphParticipants\\$gridUsers\\$ctl\\d+\\$chkParticipant$/)");
+        };
+        act.click(actionTarget);
+    },
+    '10.Click check box "on"': function() {
+        var actionTarget = function() {
+            return $("#1324964").find(":attrRegExp(name:/^ctl\\d+\\$ctl\\d+\\$ContentPlaceHolder1\\$tabStripProject\\$tabParticipants\\$cphParticipants\\$gridUsers\\$ctl\\d+\\$chkParticipant$/)");
+        };
+        act.click(actionTarget);
+    },
+    '11.Click check box "on"': function() {
+        var actionTarget = function() {
+            return $("#1325080").find(":attrRegExp(name:/^ctl\\d+\\$ctl\\d+\\$ContentPlaceHolder1\\$tabStripProject\\$tabParticipants\\$cphParticipants\\$gridUsers\\$ctl\\d+\\$chkParticipant$/)");
+        };
+        act.click(actionTarget);
+    },
     '12.Click check box "on"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_ContentPlaceHolder1_tabStripProject_tabParticipants_cphParticipants_gridUsers_ctl\\d+_chkAllParticipants$/)");
     },
@@ -165,40 +181,3 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
 };
-
-"@test"["Resend details for Admin"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qatesting1");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Administrators"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkStaff$/)");
-    },
-    '5.Click link "Manage..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkCreateStaff$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtForename$/)", "qa");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click("#btnFilter");
-    },
-    '8.Click link "..."': function() {
-        var actionTarget = function() {
-            return $(".gridRowAlt").find(" > td:nth(8) > a:nth(0)").eq(1);
-        };
-        act.click(actionTarget);
-    },
-    '9.Click submit button "Resend Login Details"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnSendLoginDetails$/)");
-    },
-    '10.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_linkLogout$/)");
-    }
-};
-

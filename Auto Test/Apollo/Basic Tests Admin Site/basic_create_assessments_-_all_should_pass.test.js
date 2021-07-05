@@ -631,6 +631,9 @@
     },
     '6.Type in input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtProjectName$/)", "Fire Rescue Service SJT Test");
+            },
+    '7.Type in text area "ctl00$ContentPlaceH..."': function() {
+        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtProjectDesc$/)", "Created using auto software");
     },
     '7.Click select "ctl00$ContentPlaceH..."': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlAssessment$/)");
@@ -3396,4 +3399,3 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
 };
-

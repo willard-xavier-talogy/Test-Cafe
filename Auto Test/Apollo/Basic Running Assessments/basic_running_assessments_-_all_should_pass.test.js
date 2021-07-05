@@ -22,7 +22,7 @@
     },
     '7.Click submit button "Apply Filter"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
+     }, 
     '8.Click image "Details"': function() {
         var actionTarget = function() {
             return $(".lnkNoHref[alt='Details']").eq(0);
@@ -30,7 +30,7 @@
         act.click(actionTarget);
     },
     '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -45,8 +45,7 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
     },
     '15.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -443,7 +442,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
     '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -458,8 +457,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '13.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -855,7 +854,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
     '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -870,8 +869,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '15.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -1243,7 +1242,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
    },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -1258,8 +1257,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
 	    '15.Click button "Login"': function() {
         act.click("#btnSubmit")
@@ -1650,7 +1649,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -1665,8 +1664,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
 	    '15.Click button "Login"': function() {
         act.click("#btnSubmit")
@@ -2059,7 +2058,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -2074,8 +2073,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -2476,7 +2475,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -2491,8 +2490,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '21.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -3252,7 +3251,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -3267,8 +3266,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '19.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -3673,7 +3672,7 @@
         act.click(actionTarget);
     },
  '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -3688,8 +3687,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -4442,7 +4441,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
     '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -4457,8 +4456,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '13.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -4836,7 +4835,7 @@
         act.click(actionTarget);
  },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -4851,8 +4850,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -5143,7 +5142,7 @@
         act.click(actionTarget);
    },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -5158,8 +5157,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -5696,7 +5695,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -5711,8 +5710,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -5728,9 +5727,6 @@
     },
     '16.Click submit button "Next"': function() {
         act.click("#btnNext");
-     },
-    "18.Wait 1000 milliseconds": function() {
-        act.wait(1e3);
     },
     '17.Click submit button "Start Test"': function() {
         act.click("#btnStartTest");
@@ -5969,7 +5965,7 @@
         act.click(actionTarget);
   },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -5984,8 +5980,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
 
     },
     '19.Click button "Login"': function() {
@@ -6365,7 +6361,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
     '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -6380,8 +6376,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -6822,7 +6818,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -6837,8 +6833,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -7220,7 +7216,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -7235,8 +7231,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '17.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -7529,7 +7525,7 @@
         act.click(".lnkNoHref[alt='Details']");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -7544,8 +7540,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
 
     },
     '35.Click button "Login"': function() {
@@ -8290,7 +8286,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -8305,8 +8301,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '15.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -8687,7 +8683,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -8702,8 +8698,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '18.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -9255,7 +9251,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -9270,8 +9266,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '15.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -9829,7 +9825,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -9844,8 +9840,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '15.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -10571,7 +10567,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -10586,8 +10582,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '15.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -10968,7 +10964,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -10983,8 +10979,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '15.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -11375,7 +11371,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -11390,8 +11386,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '18.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -11766,7 +11762,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -11781,8 +11777,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -12350,7 +12346,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -12365,8 +12361,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
 	    '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -12744,7 +12740,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -12759,8 +12755,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -13492,7 +13488,7 @@
         act.click(".lnkNoHref[alt='Details']");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -13507,8 +13503,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '16.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -14033,7 +14029,7 @@
         act.click(actionTarget);
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -14048,8 +14044,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '16.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -14367,7 +14363,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -14382,8 +14378,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
 	    '15.Click button "Login"': function() {
         act.click("#btnSubmit")
@@ -14671,7 +14667,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
    },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -14686,8 +14682,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '24.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -14957,7 +14953,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -14972,8 +14968,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '16.Click button "Login"': function() {
         act.click("#btnSubmit");
@@ -15315,7 +15311,7 @@
         act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
     },
    '9 select supervised admin code': function() {
-        this.projectCode = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
+        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
     },
     '10.Press key combination CTRL+C': function() {
         act.press("ctrl+c");
@@ -15330,8 +15326,8 @@
         act.click("#txtPassword");
     },
     "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.projectCode);
-        localStorage.clear();
+        $("#txtPassword").val(this.password);
+        
     },
     '14.Click button "Login"': function() {
         act.click("#btnSubmit");
