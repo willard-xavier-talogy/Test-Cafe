@@ -68,7 +68,7 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlNormGroup$/)");
     },
     '20.Click option "Norm 1 -..."': function() {
-        act.click(":containsExcludeChildren(Norm 1 - Applicants)");
+        act.click(":containsExcludeChildren(Norm 1 Administrative Staff)");
     },
     '21.Click button "Next"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnNext$/)");
