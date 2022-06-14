@@ -665,13 +665,7 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtCloseTime$/)", {
             caretPos: 3
         });
-    },
-    '16.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlNormGroup$/)");
-    },
-    '17.Click option "Norm 1 - Applicants"': function() {
-        act.click(":Norm 1 - Applicants)");
-    },
+      },
     '18.Click select "ctl00$ContentPlaceH..."': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlScoreScale$/)");
     },

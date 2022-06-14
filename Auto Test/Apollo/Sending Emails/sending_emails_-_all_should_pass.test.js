@@ -140,25 +140,7 @@
     },
     '8.Click image "Details"': function() {
         act.click(".lnkNoHref[alt='Details']");
-    },
-    '9.Click check box "on"': function() {
-        var actionTarget = function() {
-            return $("#1325079").find(":attrRegExp(name:/^ctl\\d+\\$ctl\\d+\\$ContentPlaceHolder1\\$tabStripProject\\$tabParticipants\\$cphParticipants\\$gridUsers\\$ctl\\d+\\$chkParticipant$/)");
-        };
-        act.click(actionTarget);
-    },
-    '10.Click check box "on"': function() {
-        var actionTarget = function() {
-            return $("#1324964").find(":attrRegExp(name:/^ctl\\d+\\$ctl\\d+\\$ContentPlaceHolder1\\$tabStripProject\\$tabParticipants\\$cphParticipants\\$gridUsers\\$ctl\\d+\\$chkParticipant$/)");
-        };
-        act.click(actionTarget);
-    },
-    '11.Click check box "on"': function() {
-        var actionTarget = function() {
-            return $("#1325080").find(":attrRegExp(name:/^ctl\\d+\\$ctl\\d+\\$ContentPlaceHolder1\\$tabStripProject\\$tabParticipants\\$cphParticipants\\$gridUsers\\$ctl\\d+\\$chkParticipant$/)");
-        };
-        act.click(actionTarget);
-    },
+     },
     '12.Click check box "on"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_ContentPlaceHolder1_tabStripProject_tabParticipants_cphParticipants_gridUsers_ctl\\d+_chkAllParticipants$/)");
     },
