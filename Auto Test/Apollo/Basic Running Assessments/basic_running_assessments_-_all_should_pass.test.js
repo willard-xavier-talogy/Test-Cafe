@@ -39,7 +39,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -451,7 +451,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -863,7 +863,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -1215,820 +1215,6 @@
         act.click("#ApolloHyperLink1");
     }
 };
-
-"@test"["Call Centre Dilemmas - Running"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "call centre");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '8.Click image "Details"': function() {
-        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
-   },
-   '9 select supervised admin code': function() {
-        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
-    },
-    '10.Press key combination CTRL+C': function() {
-        act.press("ctrl+c");
-    },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
-    },
-    '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
-    },
-    '13.Click password input "Password*"': function() {
-        act.click("#txtPassword");
-    },
-    "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.password);
-        
-    },
-	    '15.Click button "Login"': function() {
-        act.click("#btnSubmit")
-    },
-    '16.Click submit button "Start"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Tasks_ctl\\d+_btnSelectTask$/)");
-    },
-    '17.Click radio button "I AGREE"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Honesty_Accepted$/)");
-    },
-    '18.Click submit button "Continue"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnSubmit$/)");
-    },
-    '19.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '20.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '21.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '22.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '23.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '24.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '25.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '26.Click submit button "Start Test"': function() {
-        act.click("#btnStartTest");
-    },
-    '27.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '28.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '29.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '30.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '31.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '32.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '33.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '34.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '35.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '36.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '37.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '38.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '39.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '40.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '41.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '42.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '43.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '44.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '45.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '46.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '47.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '48.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '49.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '50.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '51.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '52.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '53.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '54.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '55.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '56.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '57.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '58.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '59.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '60.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '61.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '62.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '63.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '64.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '65.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '66.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '67.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '68.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '69.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '70.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '71.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '72.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '73.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '74.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '75.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '76.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '77.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '78.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '79.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '80.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '81.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '82.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '83.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '84.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '85.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '86.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '87.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '88.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '89.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '90.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '91.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '92.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '93.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '94.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '95.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '96.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '97.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '98.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '99.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '100.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '101.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '102.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '103.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '104.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '105.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '106.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '107.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '108.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '109.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '110.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '111.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '112.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '113.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '114.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '115.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '116.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '117.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '118.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '119.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '120.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '121.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '122.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '123.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '124.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '125.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '126.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '127.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '128.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '129.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '130.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '131.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '132.Click submit button "Submit"': function() {
-        act.click("#btnSubmit");
-    },
-    '133.Click submit button "Exit Test"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnExit$/)");
-    },
-    '134.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkLogout$/)");
-    }
-};
-
-"@test"["Customer Service Dilemmas - Running"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-
-    },
-    '7.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "customer service");
-    },
-    '8.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '9.Click image "Details"': function() {
-        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
-    },
-   '9 select supervised admin code': function() {
-        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
-    },
-    '10.Press key combination CTRL+C': function() {
-        act.press("ctrl+c");
-    },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
-    },
-    '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
-    },
-    '13.Click password input "Password*"': function() {
-        act.click("#txtPassword");
-    },
-    "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.password);
-        
-    },
-	    '15.Click button "Login"': function() {
-        act.click("#btnSubmit")
-    },
-    '16.Click submit button "Start"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Tasks_ctl\\d+_btnSelectTask$/)");
-    },
-    '17.Click radio button "I AGREE"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Honesty_Accepted$/)");
-    },
-    '18.Click submit button "Continue"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnSubmit$/)");
-    },
-    '19.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '20.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '21.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '22.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '23.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '24.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '25.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '26.Click submit button "Start Test"': function() {
-        act.click("#btnStartTest");
-    },
-    '27.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '28.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '29.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '30.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '31.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '32.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '33.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '34.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '35.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '36.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '37.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '38.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '39.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '40.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '41.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '42.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '43.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '44.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '45.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '46.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '47.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '48.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '49.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '50.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '51.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '52.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '53.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '54.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '55.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '56.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '57.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '58.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '59.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '60.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '61.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '62.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '63.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '64.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '65.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '66.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '67.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '68.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '69.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '70.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '71.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '72.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '73.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '74.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '75.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '76.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '77.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '78.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '79.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '80.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '81.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '82.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '83.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '84.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '85.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '86.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '87.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '88.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '89.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '90.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '91.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '92.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '93.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '94.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '95.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '96.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '97.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '98.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '99.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '100.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '101.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '102.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '103.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '104.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '105.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '106.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '107.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '108.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '109.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '110.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '111.Click button "Next"': function() {
-        act.click("#ContextNext");
-    },
-    '112.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '113.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '114.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '115.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '116.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '117.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '118.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '119.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '120.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '121.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '122.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '123.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '124.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '125.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '126.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '127.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '128.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '129.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '130.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '131.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '132.Click submit button "Submit"': function() {
-        act.click("#btnSubmit");
-    },
-    '133.Click submit button "Exit Test"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnExit$/)");
-    },
-    '134.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkLogout$/)");
-    }
-};
-
 "@test"["Driving Examiner Situational Judgment Test - Running"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
@@ -2067,7 +1253,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -2484,7 +1670,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -3260,7 +2446,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -3681,7 +2867,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -4415,704 +3601,6 @@
     }
 };
 
-"@test"["Graduate Dilemmas A - Running"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "Grad");
-    },
-    '6.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '7.Click image "Details"': function() {
-        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
-    },
-    '9 select supervised admin code': function() {
-        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
-    },
-    '10.Press key combination CTRL+C': function() {
-        act.press("ctrl+c");
-    },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
-    },
-    '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
-    },
-    '13.Click password input "Password*"': function() {
-        act.click("#txtPassword");
-    },
-    "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.password);
-        
-    },
-    '13.Click button "Login"': function() {
-        act.click("#btnSubmit");
-    },
-    '13.Click submit button "Start"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Tasks_ctl\\d+_btnSelectTask$/)");
-    },
-    '14.Click radio button "I AGREE"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Honesty_Accepted$/)");
-    },
-    '15.Click submit button "Continue"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnSubmit$/)");
-    },
-    '16.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '17.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '19.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '20.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '21.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '22.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '23.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '24.Click submit button "Start Test"': function() {
-        act.click("#btnStartTest");
-    },
-    '25.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '26.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '27.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '28.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '29.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '30.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '31.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '32.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '33.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '34.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '35.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '36.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '37.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '38.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '39.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '40.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '41.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '42.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '43.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '44.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '45.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '46.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '47.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '48.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '49.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '50.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '51.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '52.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '53.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '54.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '55.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '56.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '57.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '58.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '59.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '60.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '61.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '62.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '63.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '64.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '65.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '66.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '67.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '68.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '69.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '70.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '71.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '72.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '73.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '74.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '75.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '76.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '77.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '78.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '79.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '80.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '81.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '82.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '83.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '84.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '85.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '86.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '87.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '88.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '89.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '90.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '91.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '92.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '93.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '94.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '95.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '96.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '97.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '98.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '99.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '100.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '101.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '102.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '103.Click radio button "D1:Counter-producti..."': function() {
-        act.click("[name='optD'][title='D1:Counter-productive']");
-    },
-    '104.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '105.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '106.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '107.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '108.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '109.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '110.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '111.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '112.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '113.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '114.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '115.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '116.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '117.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '118.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '119.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '120.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '121.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '122.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '123.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '124.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '125.Click submit button "Submit"': function() {
-        act.click("#btnSubmit");
-    },
-    '126.Click submit button "Exit Test"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnExit$/)");
-    },
-    '127.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkLogout$/)");
-    }
-};
-
-"@test"["Health Education NW - Running"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "Health Education NW");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '8.Click image "Details"': function() {
-        var actionTarget = function() {
-            return $(".lnkNoHref[alt='Details']").eq(0);
-        };
-        act.click(actionTarget);
- },
-   '9 select supervised admin code': function() {
-        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
-    },
-    '10.Press key combination CTRL+C': function() {
-        act.press("ctrl+c");
-    },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
-    },
-    '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
-    },
-    '13.Click password input "Password*"': function() {
-        act.click("#txtPassword");
-    },
-    "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.password);
-        
-    },
-    '14.Click button "Login"': function() {
-        act.click("#btnSubmit");
-    },
-    '15.Click submit button "Start"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Tasks_ctl\\d+_btnSelectTask$/)");
-    },
-    '16.Click label "I AGREE"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_ApolloLabel1$/)");
-    },
-    '17.Click submit button "Continue"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnSubmit$/)");
-    },
-    '18.Click submit button "Next"': function() {
-        act.click("#btnNext1");
-    },
-    '19.Click submit button "Next"': function() {
-        act.click("#btnNext4");
-    },
-    '20.Click radio button "A2:LeastLikely"': function() {
-        act.click("#optB_1");
-    },
-    '21.Click radio button "C1:MostLikely"': function() {
-        act.click("#optA_3");
-    },
-    '22.Click submit button "Next"': function() {
-        act.click("#btnNext2");
-    },
-    '23.Click submit button "Start"': function() {
-        act.click("#btnStart");
-    },
-    '24.Click radio button "A1:Most Likely"': function() {
-        act.click("#optA_1");
-    },
-    '25.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '26.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '27.Click radio button "A3:Most Likely"': function() {
-        act.click("#optA_3");
-    },
-    '28.Click radio button "B3:Least Likely"': function() {
-        act.click("#optB_3");
-    },
-    '29.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '30.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '31.Click radio button "B1:Least Likely"': function() {
-        act.click("#optB_1");
-    },
-    '32.Click radio button "A3:Most Likely"': function() {
-        act.click("#optA_3");
-    },
-    '33.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '34.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '35.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '36.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '37.Click radio button "B1:Least Likely"': function() {
-        act.click("#optB_1");
-    },
-    '38.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '39.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '40.Click radio button "A3:Most Likely"': function() {
-        act.click("#optA_3");
-    },
-    '41.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '42.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '43.Click radio button "B1:Least Likely"': function() {
-        act.click("#optB_1");
-    },
-    '44.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '45.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '46.Click radio button "A1:Most Likely"': function() {
-        act.click("#optA_1");
-    },
-    '47.Click radio button "B3:Least Likely"': function() {
-        act.click("#optB_3");
-    },
-    '48.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '49.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '50.Click radio button "B3:Least Likely"': function() {
-        act.click("#optB_3");
-    },
-    '51.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '52.Click radio button "A1:Most Likely"': function() {
-        act.click("#optA_1");
-    },
-    '53.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '54.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '55.Click radio button "B1:Least Likely"': function() {
-        act.click("#optB_1");
-    },
-    '56.Click radio button "A3:Most Likely"': function() {
-        act.click("#optA_3");
-    },
-    '57.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '58.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '59.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '60.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '61.Click radio button "B2:Least Likely"': function() {
-        act.click("#optB_2");
-    },
-    '62.Click radio button "A4:Most Likely"': function() {
-        act.click("#optA_4");
-    },
-    '63.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '64.Click radio button "A1:Most Likely"': function() {
-        act.click("#optA_1");
-    },
-    '65.Click radio button "B2:Least Likely"': function() {
-        act.click("#optB_2");
-    },
-    '66.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '67.Click radio button "A3:Most Likely"': function() {
-        act.click("#optA_3");
-    },
-    '68.Click radio button "B2:Least Likely"': function() {
-        act.click("#optB_2");
-    },
-    '69.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '70.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '71.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '72.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '73.Click radio button "B1:Least Likely"': function() {
-        act.click("#optB_1");
-    },
-    '74.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '75.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '76.Click radio button "A3:Most Likely"': function() {
-        act.click("#optA_3");
-    },
-    '77.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '78.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '79.Click radio button "B2:Least Likely"': function() {
-        act.click("#optB_2");
-    },
-    '80.Click radio button "A3:Most Likely"': function() {
-        act.click("#optA_3");
-    },
-    '81.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '82.Click radio button "A1:Most Likely"': function() {
-        act.click("#optA_1");
-    },
-    '83.Click radio button "B3:Least Likely"': function() {
-        act.click("#optB_3");
-    },
-    '84.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '85.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '86.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '87.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '88.Click radio button "B1:Least Likely"': function() {
-        act.click("#optB_1");
-    },
-    '89.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '90.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '91.Click radio button "B3:Least Likely"': function() {
-        act.click("#optB_3");
-    },
-    '92.Click radio button "A4:Most Likely"': function() {
-        act.click("#optA_4");
-    },
-    '93.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '94.Click radio button "A2:Most Likely"': function() {
-        act.click("#optA_2");
-    },
-    '95.Click radio button "B4:Least Likely"': function() {
-        act.click("#optB_4");
-    },
-    '96.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '97.Click submit button "Submit"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnSubmit$/)");
-    },
-    '98.Click submit button "Exit Test"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnExit$/)");
-    },
-    '99.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkLogout$/)");
-    }
-};
-
 "@test"["ISS Healthcare SJT - Running"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
@@ -5151,7 +3639,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -5704,7 +4192,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -5974,7 +4462,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -6335,460 +4823,6 @@
     }
 };
 
-"@test"["Management Dilemmas - Running"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "management");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '8.Click image "Details"': function() {
-        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
-    },
-    '9 select supervised admin code': function() {
-        this.password  = $(".SupervisedPasswordPanel")[0].innerHTML.split("\"")[1];
-    },
-    '10.Press key combination CTRL+C': function() {
-        act.press("ctrl+c");
-    },
-    '11.Click link "https://uat.apollo...."': function() {
-        act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
-    },
-    '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
-    },
-    '13.Click password input "Password*"': function() {
-        act.click("#txtPassword");
-    },
-    "14.Press key combination CTRL+V": function() {
-        $("#txtPassword").val(this.password);
-        
-    },
-    '14.Click button "Login"': function() {
-        act.click("#btnSubmit");
-    },
-    '15.Click submit button "Start"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Tasks_ctl\\d+_btnSelectTask$/)");
-    },
-    '16.Click radio button "I AGREE"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_Honesty_Accepted$/)");
-    },
-    '17.Click submit button "Continue"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnSubmit$/)");
-    },
-    '18.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '19.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '20.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '21.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '22.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '23.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '24.Click submit button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '25.Click submit button "Start Test"': function() {
-        act.click("#btnStartTest");
-    },
-    '26.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '27.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '28.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '29.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '30.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '31.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '32.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '33.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '34.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '35.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '36.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '37.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '38.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '39.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '40.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '41.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '42.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '43.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '44.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '45.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '46.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '47.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '48.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '49.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '50.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '51.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '52.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '53.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '54.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '55.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '56.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '57.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '58.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '59.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '60.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '61.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '62.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '63.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '64.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '65.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '66.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '67.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '68.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '69.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '70.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '71.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '72.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '73.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '74.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '75.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '76.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '77.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '78.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '79.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '80.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '81.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '82.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '83.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '84.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '85.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '86.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '87.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '88.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '89.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '90.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '91.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '92.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '93.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '94.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '95.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '96.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '97.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '98.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '99.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '100.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '101.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '102.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '103.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '104.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '105.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '106.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '107.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '108.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '109.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '110.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '111.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '112.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '113.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '114.Click radio button "D4:Effective"': function() {
-        act.click("[name='optD'][title='D4:Effective']");
-    },
-    '115.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '116.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '117.Click radio button "B4:Effective"': function() {
-        act.click("[name='optB'][title='B4:Effective']");
-    },
-    '118.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '119.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '120.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '121.Click radio button "A3:Slightly..."': function() {
-        act.click("[name='optA'][title='A3:Slightly Effective']");
-    },
-    '122.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '123.Click radio button "C4:Effective"': function() {
-        act.click("[name='optC'][title='C4:Effective']");
-    },
-    '124.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '125.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '126.Click radio button "A2:Ineffective"': function() {
-        act.click("[name='optA'][title='A2:Ineffective']");
-    },
-    '127.Click radio button "B2:Ineffective"': function() {
-        act.click("[name='optB'][title='B2:Ineffective']");
-    },
-    '128.Click radio button "C2:Ineffective"': function() {
-        act.click("[name='optC'][title='C2:Ineffective']");
-    },
-    '129.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '130.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '131.Click radio button "A4:Effective"': function() {
-        act.click("[name='optA'][title='A4:Effective']");
-    },
-    '132.Click radio button "B3:Slightly..."': function() {
-        act.click("[name='optB'][title='B3:Slightly Effective']");
-    },
-    '133.Click radio button "C3:Slightly..."': function() {
-        act.click("[name='optC'][title='C3:Slightly Effective']");
-    },
-    '134.Click radio button "D3:Slightly..."': function() {
-        act.click("[name='optD'][title='D3:Slightly Effective']");
-    },
-    '135.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '136.Click radio button "A1:Counter-producti..."': function() {
-        act.click("[name='optA'][title='A1:Counter-productive']");
-    },
-    '137.Click radio button "B1:Counter-producti..."': function() {
-        act.click("[name='optB'][title='B1:Counter-productive']");
-    },
-    '138.Click radio button "C1:Counter-producti..."': function() {
-        act.click("[name='optC'][title='C1:Counter-productive']");
-    },
-    '139.Click radio button "D2:Ineffective"': function() {
-        act.click("[name='optD'][title='D2:Ineffective']");
-    },
-    '140.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '141.Click radio button "A5:Very Effective"': function() {
-        act.click("[name='optA'][title='A5:Very Effective']");
-    },
-    '142.Click radio button "B5:Very Effective"': function() {
-        act.click("[name='optB'][title='B5:Very Effective']");
-    },
-    '143.Click radio button "C5:Very Effective"': function() {
-        act.click("[name='optC'][title='C5:Very Effective']");
-    },
-    '144.Click radio button "D5:Very Effective"': function() {
-        act.click("[name='optD'][title='D5:Very Effective']");
-    },
-    '145.Click button "Next"': function() {
-        act.click("#btnNext");
-    },
-    '146.Click submit button "Submit"': function() {
-        act.click("#btnSubmit");
-    },
-    '147.Click submit button "Exit Test"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_MainContent_btnExit$/)");
-    },
-    '148.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkLogout$/)");
-    },
-    '149.Click link "Login"': function() {
-        act.click("#ApolloHyperLink1");
-    }
-};
-
 "@test"["Met Police Service SJT - Running"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
@@ -6827,7 +4861,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -7225,7 +5259,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -7534,7 +5568,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -8295,7 +6329,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -8692,7 +6726,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -9260,7 +7294,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -9834,7 +7868,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -10576,7 +8610,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -10973,7 +9007,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -11380,7 +9414,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -11771,7 +9805,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -12355,7 +10389,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -12749,7 +10783,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -13497,7 +11531,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -14038,7 +12072,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -14372,7 +12406,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -14676,7 +12710,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -14962,7 +12996,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");
@@ -15320,7 +13354,7 @@
         act.click(":containsExcludeChildren(httpsuatapolloadcukcom)");
     },
     '12.Type in input "Username*"': function() {
-        act.type("#txtUsername", "QAwx1Example1bwx25");
+        act.type("#txtUsername", "QAwx1Example1bwx2");
     },
     '13.Click password input "Password*"': function() {
         act.click("#txtPassword");

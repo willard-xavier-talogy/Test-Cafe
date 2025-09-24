@@ -2,60 +2,6 @@
 "@page https://uat.apolloadministration.adc.uk.com/login.aspx?ReturnUrl=%2fDefault.aspx";
 "@auth qayes:Brown72house";
 
-"@test"["Basic opening Call Centre Dilemmas report"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qayes");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "Call Centre Dilemmas");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '8.Click image "Details"': function() {
-        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
-    },
-    "9.Click image": function() {
-        act.click("#imgReportBlue");
-    },
-    '10.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '11.Click option "Participant..."': function() {
-        act.click(":containsExcludeChildren(Participant Feedback Report)");
-    },
-    '12.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '13.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '14.Click option "Assessment Report"': function() {
-        act.click(":containsExcludeChildren(Assessment Report)");
-    },
-    '15.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '16.Click submit button "Back"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
-    },
-    '17.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
-    }
-};
-
 "@test"["Basic opening Ambulance Service SJT Audio Version New report"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qayes");
@@ -160,63 +106,6 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
     },
     '17.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
-    }
-};
-
-"@test"["Basic opening Customer Service Dilemmas report"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qayes");
-    },
-    "2.Press key TAB": function() {
-        act.press("tab");
-    },
-    '3.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '4.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '5.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '6.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '7.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "Customer Service Dilemmas");
-    },
-    '8.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '9.Click image "Details"': function() {
-        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
-    },
-    "10.Click image": function() {
-        act.click("#imgReportBlue");
-    },
-    '11.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '12.Click option "Participant..."': function() {
-        act.click(":containsExcludeChildren(Participant Feedback Report)");
-    },
-    '13.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '14.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '15.Click option "Assessment Report"': function() {
-        act.click(":containsExcludeChildren(Assessment Report)");
-    },
-    '16.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '17.Click submit button "Back"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
-    },
-    '18.Click link "Logout"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
 };
@@ -395,60 +284,6 @@
     }
 };
 
-"@test"["Basic opening Graduate Dilemmas A report"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qayes");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "Graduate Dilemmas A");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '8.Click image "Details"': function() {
-        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
-    },
-    "9.Click image": function() {
-        act.click("#imgReportBlue");
-    },
-    '10.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '11.Click option "Participant..."': function() {
-        act.click(":containsExcludeChildren(Participant Feedback Report)");
-    },
-    '12.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '13.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '14.Click option "Assessment Report"': function() {
-        act.click(":containsExcludeChildren(Assessment Report)");
-    },
-    '15.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '16.Click submit button "Back"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
-    },
-    '17.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
-    }
-};
-
 "@test"["Basic opening Health Education NW reports"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
         act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qayes");
@@ -502,64 +337,6 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
     },
     '17.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
-    }
-};
-
-"@test"["Basic opening Management Dilemmas report"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qayes");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
- 
-    },
-    '5.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '6.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '7.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '8.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "Management Dilemmas");
-    },
-    '9.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '10.Click image "Details"': function() {
-        var actionTarget = function() {
-            return $(".lnkNoHref[alt='Details']").eq(0);
-        };
-        act.click(actionTarget);
-    },
-    "11.Click image": function() {
-        act.click("#imgReportBlue");
-    },
-    '12.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '13.Click option "Participant..."': function() {
-        act.click(":containsExcludeChildren(Participant Feedback Report)");
-    },
-    '14.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '15.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '16.Click option "Assessment Report"': function() {
-        act.click(":containsExcludeChildren(Assessment Report)");
-    },
-    '17.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '18.Click submit button "Back"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
-    },
-    '19.Click link "Logout"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
 };

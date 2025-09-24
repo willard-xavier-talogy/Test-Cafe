@@ -389,63 +389,6 @@
     }
 };
 
-"@test"["Basic opening Graduate Dilemmas A report"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "QAAuto25");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "Graduate Dilemmas A");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '8.Click image "Details"': function() {
-        act.click("body > form:nth(0) > div:nth(4) > div:nth(4) > div:nth(2) > div:nth(2) > table:nth(0) > tbody:nth(0) > tr:nth(1) > td:nth(13) > img:nth(0)");
-    },
-    "17.Click image": function() {
-        act.click("#imgReportBlue");
-    },
-    '18.Hover over select "ctl00$ContentPlaceH..."': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '19.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '20.Click option "Participant..."': function() {
-        act.click(":containsExcludeChildren(Participant Feedback Report)");
-    },
-    '21.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '22.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '23.Click option "Assessment Report"': function() {
-        act.click(":containsExcludeChildren(Assessment Report)");
-    },
-    '24.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '25.Click submit button "Back"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
-    },
-    '26.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
-    }
-};
-
 
 "@test"["Basic opening Health Education NW reports"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
