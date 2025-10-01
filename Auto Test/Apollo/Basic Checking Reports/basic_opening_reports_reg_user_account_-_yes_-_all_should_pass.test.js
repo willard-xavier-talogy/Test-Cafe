@@ -284,62 +284,7 @@
     }
 };
 
-"@test"["Basic opening Health Education NW reports"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qayes");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "Health Education NW");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '8.Click image "Details"': function() {
-        var actionTarget = function() {
-            return $(".lnkNoHref[alt='Details']").eq(0);
-        };
-        act.click(actionTarget);
-    },
-    "9.Click image": function() {
-        act.click("#imgReportBlue");
-    },
-    '10.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '11.Click option "Participant..."': function() {
-        act.click(":containsExcludeChildren(Participant Feedback Report)");
-    },
-    '12.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '13.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '14.Click option "Assessment Report"': function() {
-        act.click(":containsExcludeChildren(Assessment Report)");
-    },
-    '15.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '16.Click submit button "Back"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
-    },
-    '17.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
-    }
-};
+
 
 "@test"["Basic opening Met Police Service SJT report"] = {
     '1.Type in input "ctl00$ContentPlaceH..."': function() {
@@ -379,63 +324,6 @@
         act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
     },
     '12.Click link "Logout"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
-    }
-};
-
-"@test"["Basic opening PMI Match report"] = {
-    '1.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtUsername$/)", "qayes");
-    },
-    '2.Type in password input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtPassword$/)", "Brown72house");
-    },
-    '3.Click submit button "Login"': function() {
-        act.click("#btnLogin");
-    },
-    '4.Hover over link "Project"': function() {
-        act.hover(":attrRegExp(id:/^ctl\\d+_lnkProjects$/)");
-    },
-    '5.Click link "View Projects"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_lnkViewProjects$/)");
-    },
-    '6.Type in input "ctl00$ContentPlaceH..."': function() {
-        act.type(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_txtFilterProjectName$/)", "PMI Match");
-    },
-    '7.Click submit button "Apply Filter"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnFilter$/)");
-    },
-    '8.Click image "Details"': function() {
-        var actionTarget = function() {
-            return $(".lnkNoHref[alt='Details']").eq(0);
-        };
-        act.click(actionTarget);
-    },
-    "9.Click image": function() {
-        act.click("#imgReportBlue");
-    },
-    '10.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '11.Click option "Participant..."': function() {
-        act.click(":containsExcludeChildren(Participant Feedback Report)");
-    },
-    '12.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '13.Click select "ctl00$ContentPlaceH..."': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_ddlReports$/)");
-    },
-    '14.Click option "Assessment Report"': function() {
-        act.click(":containsExcludeChildren(Assessment Report)");
-    },
-    '15.Click submit button "View Report"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnView$/)");
-    },
-    '16.Click submit button "Back"': function() {
-        act.click(":attrRegExp(id:/^ctl\\d+_ContentPlaceHolder1_btnBack$/)");
-    },
-    '17.Click link "Logout"': function() {
         act.click(":attrRegExp(id:/^ctl\\d+_ctl\\d+_linkLogout$/)");
     }
 };
